@@ -1,0 +1,9 @@
+I, [2014-05-27 10:51:50#30614]  INFO -- : [App] 200 :: GET path=/app/teste duration=1.44 params={"controller"=>"app", "action"=>"teste"}
+E, [2014-05-27 10:51:53#30614]  INFO -- : [App] 403 :: GET path=/app/teste duration=1.44 params={"controller"=>"app", "action"=>"teste"}
+I, [2014-05-27 10:51:55#30614]  INFO -- : [App] 200 :: GET path=/app/teste/2014-05-27.json duration=1.44 params={"controller"=>"app", "action"=>"teste_json"}
+F, [2014-05-27 10:51:57#4404] FATAL -- :
+Faraday::Error::TimeoutError (Net::ReadTimeout):
+/opt/generic/ruby-2.0.0/lib/ruby/2.0.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+/opt/generic/ruby-2.0.0/lib/ruby/2.0.0/net/protocol.rb:152:in `rbuf_fill'
+/opt/generic/ruby-2.0.0/lib/ruby/2.0.0/net/protocol.rb:134:in `readuntil'
+/opt/generic/ruby-2.0.0/lib/ruby/2.0.0/net/protocol.rb:144:in `readline'
